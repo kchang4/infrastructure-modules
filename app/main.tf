@@ -7,7 +7,7 @@ terraform {
 }
 
 module "app" {
-  source        = "../../../app"
+  source        = "../../app"
   create_bucket = var.create_bucket
   test_id       = var.test_id
 }
